@@ -1,4 +1,4 @@
-print ("jogo de adivinhação")
+'''print ("jogo de adivinhação") atividade 1
 
 jo1 = int(input("Escolha um número de 1 a 10: "))
 
@@ -19,7 +19,7 @@ while jo1 != jo2 and (jo1 < 10 and jo2 <10) :
             print ('finalizado')
 
 else :
-    print ('acertou')
+    print ('acertou')'''
 
     
      
@@ -67,6 +67,19 @@ elif jo2 == 10 and jo1 == 10:
     print('voce acertou') '''
 
 
+''' atividade 2 '''
+print ('AGENDA')
+nome = str (input ('digite o nome: '))
+telefone = int (input('digite o numero ( + ddd): '))
 
-    
+
+while :
+    match input('deseja adicionar mais pessoas? \n (s = sim n= nao) '):
+        case  "s" :
+            nome = str ('digite o nome: ')
+            telefone = int ('digite o numero ( + ddd): ')
+else:
+    print('finalizado')
+
+
 
