@@ -1,4 +1,5 @@
 n=input('Digite algo: ')
+print('O tipo primitivo desse valor é', type(n))
 print('É número? ', n.isnumeric())
 print('É texto? ', n.isalpha())
 print('são ambos? ', n.isalnum())
