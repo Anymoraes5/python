@@ -19,5 +19,5 @@ import random
 num = random.random()
 print(num)
 
-import emoji
-print(emoji.emojize("Olá, mundo :earth_americas:"))
+print (12, 34, sep='-')
+
