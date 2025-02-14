@@ -1,4 +1,4 @@
-# Iniciando aprendizado em python
+# Iniciando aprendizado em python do 0 ao avançado :) 
 - Aqui vou colocar algumas anotações!
 
 ## Anotações
