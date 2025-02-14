@@ -2,4 +2,4 @@
 salario = float(input('Digite seu salário: '))
 aumento = salario * 0.15
 n_salario = salario + aumento
-print('Seu salário teve ajuste de {} e agora está {}'.format(aumento,n_salario))
+print('Seu salário teve ajuste de {:.2f} e agora está {}'.format(aumento,n_salario))
