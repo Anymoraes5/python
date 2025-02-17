@@ -13,3 +13,4 @@
 - == é um operrador logico que questiona se um valor é igual a outro 
 - Conversão de tipo ex: print(int('1') + 1 ) imprime 2 
 - sobrescrever é apenas alimentar a variavel com o mesmo nome com outra informação
+- Se uma das condições do if for atendida ele não executará as outras
