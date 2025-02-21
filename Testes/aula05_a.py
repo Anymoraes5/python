@@ -5,3 +5,5 @@ print (type (10 == 11))
 
 #conversão de tipos, coerção
 print (float('1') + 1) 
+
+#para conversão precisa de uma nova variavel que seja no tipo que vc queira ex: variavel_tipo = tipo(variavel)
