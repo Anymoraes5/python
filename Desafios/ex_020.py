@@ -5,7 +5,7 @@ maior que 6 letras "seu nome é muito grande
 '''
 nome = input('Escreva seu nome: ')
 
-if len(nome) == 4:
+if len(nome) >1 and len(nome) <= 4:
     print('Seu nome é curto')
 elif len(nome) >= 5 and len(nome) <= 6:
     print('Seu nome é normal')
