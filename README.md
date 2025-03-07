@@ -14,3 +14,6 @@
 - Conversão de tipo ex: print(int('1') + 1 ) imprime 2 
 - sobrescrever é apenas alimentar a variavel com o mesmo nome com outra informação
 - Se uma das condições do if for atendida ele não executará as outras
+- Verificação -> 
+                    .lower() converte tudo para minusculo
+                    .endwith() ou .startswith() termina com e começa com
