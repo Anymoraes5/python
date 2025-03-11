@@ -21,3 +21,7 @@
             - append() - add um item ao final
             - insert() - add um item no indice escolhido
             - pop() - remove
+- Range:
+        - gera números
+        - o ultimo numero do range não entra
+- Variável _(underline) é uma variavel criada mas não usada
