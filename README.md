@@ -17,3 +17,7 @@
 - Verificação -> 
                     .lower() converte tudo para minusculo
                     .endwith() ou .startswith() termina com e começa com
+- PARA LISTAS:
+            - append() - add um item ao final
+            - insert() - add um item no indice escolhido
+            - pop() - remove
