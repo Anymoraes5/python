@@ -25,3 +25,6 @@
         - gera números
         - o ultimo numero do range não entra
 - Variável _(underline) é uma variavel criada mas não usada
+- Fatiamento[i:f:p] [::]
+Obs.: a função len retorna a qtd
+de caracteres da str
