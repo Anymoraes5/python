@@ -1,5 +1,6 @@
-cpf = int(input('CPF: '))
 print('Sem pontos e sem traços!')
+cpf = int(input('CPF: '))
+
 cpf_str = str(cpf)
 
 
@@ -45,3 +46,6 @@ if d1 == int(cpf_str[-2]) and d2 == int(cpf_str[-1]):
     print('CPF VÁLIDO')
 else:
     print('CPF INVÁLIDO')
+
+
+

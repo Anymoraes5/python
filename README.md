@@ -28,3 +28,4 @@
 - Fatiamento[i:f:p] [::]
 Obs.: a função len retorna a qtd
 de caracteres da str
+- .replace() - substitui itens da str recebida por algo que queira
