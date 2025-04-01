@@ -29,10 +29,19 @@ lista_de_lista_de_int = [
     [5, 3, 1, 8, 5, 7, 1, 8, 8, 7],
     [10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
 ]
-cont_list = 0
 
-for i, l in enumerate(lista_de_lista_de_int):
-    # print(i, l)
-    for ind in l:
-        print(ind)
+def encontra_primeiro_duplicado(lista_de_lista_de_int):
+    numeros_check = set()
+    primeiro_duplicado = -1
 
+    for num in lista_de_lista_de_int:
+        if num in numeros_check:
+            primeiro_duplicado = num
+            break
+
+        numeros_check.add(num)
+
+    return primeiro_duplicado
+
+for lista in lista_de_lista_de_int:
+    print(lista,encontra_primeiro_duplicado(lista))
