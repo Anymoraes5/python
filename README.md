@@ -35,3 +35,5 @@ de caracteres da str
 
         - First-Class Functions - Funções que são tratadas como outros tipos de dados comuns (strings, inteiros, etc...)
 - set() -> só aceita valores unicos 
+
+- @decoradora -> ela é usada para criar funções, eu recebo uma função crio uma interna e retorno a interna 
